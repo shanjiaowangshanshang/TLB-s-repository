@@ -1,0 +1,21 @@
+#include"iostream"
+#include"cstring"
+#include"ctime"
+int main()
+{
+	using namespace std;
+	clock_t secs,delay,start;
+	/*cin >>secs;
+	delay = secs*CLOCKS_PER_SEC;
+	start = clock();
+	while(clock()-start<delay)
+	;*/
+	char x[10],y,z;
+	cin.get(x,6).get(y);
+	cin >> z;
+	 cout << "womendoushiyi\n" 
+	 << x<<endl
+	 << y <<endl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+	 <<z; 
+	return 0;
+ } 
